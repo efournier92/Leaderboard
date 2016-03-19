@@ -11,3 +11,15 @@ This is regular type
 
 **This is Bold H2**
 -------------------
+
+`et submit md_practice`
+
+```
+require 'pry'
+
+array = [100, 220, 230]
+
+array.each do |n|
+  n += 12
+end
+```
