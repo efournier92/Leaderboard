@@ -1,6 +1,5 @@
 require_relative 'team_spec.rb'
 require 'spec_helper'
-require 'pry'
 
 RSpec.describe Leaderboard do
   describe '.new' do

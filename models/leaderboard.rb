@@ -41,7 +41,7 @@ class Leaderboard
   end
 
   def fill_in_teams(new_team)
-    team = @teams.find { |team_name| team.name == new_team }
+    team = @teams.find { |which_team| which_team.name == new_team }
     if team.nil?
       team = Team.new(new_team)
       @teams << team

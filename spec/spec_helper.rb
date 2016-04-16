@@ -1,2 +1,2 @@
-require_relative '../lib/team'
-require_relative '../lib/leaderboard'
+require_relative '../models/team.rb'
+require_relative '../models/leaderboard.rb'

@@ -1,6 +1,5 @@
-require_relative 'leaderboard.rb'
-require_relative 'team.rb'
-require 'pry'
+require_relative 'models/leaderboard.rb'
+require_relative 'models/team.rb'
 
 FRAMER = '*****************************************'
 HEADER = '*   TEAM       RANK     WINS    LOSSES  *'
