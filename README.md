@@ -1,6 +1,6 @@
 ##Leaderboard
 
-Print a styled leaderboard to your CLI based on inputed game results.
+Prints a styled leaderboard to your CLI based on inputed game results.
 
 The `spec` folder features full unit test coverage for the models and `app.rb`.
 
@@ -17,6 +17,6 @@ Game data is supplied in `leaderboard.rb` as a constant called `GAME_INFO`.
 * `record_calculator` (calculates wins and losses for each team)
 * `team_summary` (outputs details of each game a team played)
 
-###Example Output
+###Sample Output
 ![Leaderboard_Ouput](http://gdurl.com/rPxq)
 ![Leaderboard_Ouput](http://gdurl.com/t3dJ)
